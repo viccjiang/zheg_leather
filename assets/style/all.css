@@ -11655,7 +11655,7 @@ fieldset:disabled .btn {
 /* 客製化設定 */
 .banner {
   height: 400px;
-  background: url("../../../assets/images/footer.png") center center;
+  background: url("../../assets/images/footer.png") center center;
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-filter: brightness(50%);
