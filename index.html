@@ -20,7 +20,9 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
-        <a class="navbar-brand" href="#"><img src="./assets/images/ZHEGlogo.png" alt=""></a>
+        <a class="navbar-brand" href="#"
+          ><img src="./assets/images/ZHEGlogo.png" alt=""
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -75,7 +77,7 @@
 
     
 <!-- banner Swiper -->
-<div class="swiper mySwiper">
+<div class="hero swiper mySwiper">
   <div class="swiper-wrapper " style="position:relative ;">
     <div class="swiper-slide ">
       <img src="./assets/images/hero-1.png" alt="banner">
@@ -126,8 +128,14 @@
 </div>
 
 <!-- 推薦 -->
-<div class="container commend mt-5">
-  <!-- swiper 開始 -->
+<div class="container commend my-5">
+  <div class="col-12 mb-5 mb-lg-10">
+    <div class="col-12 d-flex flex-column align-items-center mb-6">
+      <h2 class="h3 fsz-lg-40 fw-bold text-dark">好評推薦</h2>
+      <span class=" mb-1">Good Commends </span>
+      <div class="title-underline"></div>
+    </div>
+  </div>
   <div class="swiper " id="comment-swiper">
     <!-- swiper-wrapper 容器 -->
     <ul class="swiper-wrapper p-0">
@@ -268,8 +276,30 @@
 
 
 
-    <footer class="footer">footer</footer>
+    <footer class="footer">
+      <div class="container-fluid banner d-flex justify-content-center align-items-center"></div>
+      <div class="container">
+        <!-- <p class="footer-text">footer footerfooterfo11111111111111111111111111111111111oterfoote</p> -->
+        <div class="row footer-text">
+          <div class="col-lg-12"><a href="" class="d-flex justify-content-center align-items-center my-5"><img src="./assets/images/Group 4.png" style="height:20px" alt=""></a></div>
+          <ul class="d-flex justify-content-center align-items-center list-unstyled mb-5">
+            <li class="p-2"><a href=""><img src="./assets/images/image 30.png" style="height:50px" alt=""></a></li>
+            <li class="p-2"><a href=""><img src="./assets/images/image 31.png" style="height:50px" alt=""></a></li>
+            <li class="p-2"><a href=""><img src="./assets/images/image 32.png" style="height:50px" alt=""></a></li>
+            <li class="p-2"><a href=""><img src="./assets/images/image 33.png" style="height:50px" alt=""></a></li>
+          </ul>
+          <ul class="d-flex justify-content-center align-items-center list-unstyled">
+            <li class="p-2 "><a href="" class="link-light text-decoration-none">服務條款</a></li>
+            <li class="p-2"><a href="" class="link-light text-decoration-none">隱私政策</a></li>
+            <li class="p-2"><a href="" class="link-light text-decoration-none">退款政策</a></li>
+          </ul>
+          <p class="text-center">Copyright © 2022 ZHEG.</p>
+        </div>
+      </div>
 
+
+
+  
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>

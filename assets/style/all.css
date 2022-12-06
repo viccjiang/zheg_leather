@@ -1,11 +1,18 @@
 @charset "UTF-8";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+ol,
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11592,10 +11599,10 @@ fieldset:disabled .btn {
   align-items: center;
 }
 
-.swiper-slide img {
+.hero .swiper-slide img {
   display: block;
   width: 100%;
-  height: 100%;
+  height: 700px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -11634,6 +11641,30 @@ fieldset:disabled .btn {
   max-width: 100%;
   height: 300px;
   display: block;
+}
+
+.footer {
+  position: relative;
+}
+
+.footer-text {
+  color: white;
+  position: relative;
+}
+
+/* 客製化設定 */
+.banner {
+  height: 400px;
+  background: url("../../../assets/images/footer.png") center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
 /*# sourceMappingURL=all.css.map */
