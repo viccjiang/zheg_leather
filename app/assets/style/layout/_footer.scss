@@ -1,0 +1,26 @@
+.footer{
+  position: relative;
+}
+
+.footer-text{
+  color: white;
+  position: relative;
+}
+
+/* 客製化設定 */
+.banner{
+  height: 400px;
+  background: url("../../../assets/images/footer.png") center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(50%);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+
+
+
