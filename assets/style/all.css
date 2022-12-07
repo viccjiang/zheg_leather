@@ -11680,6 +11680,32 @@ fieldset:disabled .btn {
   color: #000;
 }
 
+.aboutBanner {
+  margin-top: 200px;
+  height: 500px;
+  background-color: #544c4a;
+  position: relative;
+}
+
+.aboutSwiperImg {
+  margin-right: 15px;
+  margin-bottom: 100px;
+  height: 500px;
+  width: 500px;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  right: 100px;
+  bottom: 0px;
+}
+
+@media (max-width: 992px) {
+  .aboutSwiperImg {
+    display: none;
+  }
+}
+
 .footer {
   position: relative;
 }
