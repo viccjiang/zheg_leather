@@ -7,6 +7,10 @@ ul {
   margin-bottom: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -11622,7 +11626,7 @@ fieldset:disabled .btn {
   width: 80px;
   height: 80px;
   /*  調整人物頭像位置 */
-  top: -50px;
+  top: -45px;
 }
 
 .icon-star {
@@ -11635,12 +11639,45 @@ fieldset:disabled .btn {
 }
 
 .intro-img {
+  height: 200px;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  max-width: 100%;
-  height: 300px;
   display: block;
+  -webkit-filter: brightness(0.7);
+          filter: brightness(0.7);
+  border-radius: 10px;
+}
+
+.intro-img:hover {
+  -webkit-filter: brightness(1);
+          filter: brightness(1);
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.card .card-img-top {
+  border-radius: 10px;
+}
+
+.card img {
+  -webkit-filter: brightness(1);
+          filter: brightness(1);
+}
+
+.card img:hover {
+  -webkit-filter: brightness(0.8);
+          filter: brightness(0.8);
+}
+
+.card .card-link-text {
+  color: #603f2c;
+}
+
+.card .card-link-text:hover {
+  color: #000;
 }
 
 .footer {
